@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2024 The Evolution X Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Charging info current divider, if needed -->
+    <integer name="config_currentInfoDivider" translatable="false">1000</integer>
+
+    <!-- Update battery info every second when device is charging -->
+    <bool name="config_alternateFastchargeInfoUpdate">false</bool>
+
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">-1</integer>
+
+    <!-- Notification counter -->
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+
+    <!-- Show 5G toggle in internet dialog when available -->
+    <bool name="config_supportsVONR">true</bool>
+
+    <!-- The location of the devices physical tri state switch
+         0: Left side
+         1: Right side -->
+    <integer name="config_alertSliderLocation">0</integer>
+
+    <!-- Whether key handler sends intent when changing slider position -->
+    <string name="config_alertSliderIntent"></string>
+
+    <!-- Udfps vendor code -->
+    <integer name="config_udfpsVendorCode">0</integer>
+
+    <!-- Whether to pulse onFingerDown actions instead
+        of waking the screen while the screen is off or in lpm. -->
+    <bool name="config_pulseOnFingerDown">false</bool>
+</resources>

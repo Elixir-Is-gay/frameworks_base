@@ -1,0 +1,10 @@
+.idea
+.project
+*.iml
+*.sw*
+gen/
+.vscode/
+*.code-workspace
+.gradle/
+cmds/incidentd/testdata/morethan96MB.txt
+packages/SettingsLib/Spa/gradle/wrapper/gradle-8.10-bin.zip

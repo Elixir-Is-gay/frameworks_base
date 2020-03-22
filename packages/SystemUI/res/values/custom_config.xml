@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2024 Project Elixir
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Flag to disable alpha on lockscreen if a depth clock is enabled -->
+    <bool name="config_elixirDepthClockEnabled">false</bool>
+
+</resources>

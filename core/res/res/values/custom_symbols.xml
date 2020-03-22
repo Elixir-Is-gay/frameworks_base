@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Whether device supports an alt. ambient display -->
+    <java-symbol type="bool" name="config_alt_ambient_display"/>
+
+    <!-- SystemUI Restart -->
+    <java-symbol type="string" name="systemui_restart_title" />
+    <java-symbol type="string" name="systemui_restart_message" />
+
+   <!-- Settings Restart -->
+   <java-symbol type="string" name="settings_restart_title" />
+   <java-symbol type="string" name="settings_restart_message" />
+
+    <!-- Auto Depth Clock Font -->
+    <java-symbol type="string" name="config_autoDepthClockFont" />
+    <java-symbol type="string" name="config_autoDepthClockDateFont" />
+
+</resources>
